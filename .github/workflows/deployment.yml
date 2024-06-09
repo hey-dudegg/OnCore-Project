@@ -1,0 +1,41 @@
+name: Deploy CamperRank Server
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  build:
+    name: deploy CamperRank
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout source code
+        uses: actions/checkout@v3
+        with:
+          ref: dev
+
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /home/code/Web31-CamperRank
+            git pull origin dev
+            cd /home/code/Web31-CamperRank/frontend
+            yarn install
+            yarn build
+            cd /home/code/Web31-CamperRank/backend
+            npm install
+            cd /home/code/Web31-CamperRank/grading
+            npm install
+            cd /home/code/Web31-CamperRank/socket
+            npm install
+            sudo nginx -s reload
+            pm2 reload all
+            pm2 list
