@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/woorog/web_fe/assets/154962837/c14231bf-1d8d-4c68-beb2-022ff2e7cae0">
+  <img src="https://raw.githubusercontent.com/hey-dudegg/OnCore-Project/5bd5e22f175f356d9802a76fb1d18b7bc0a91c4d/frontend/src/assets/NewBanner.svg">
 
   <h2>동료들과 함께 알고리즘을 학습하고 소통할 수 있는 플랫폼</h2>
   <h4>🗝️ KeyWords <h4/>
@@ -43,7 +43,7 @@
 ### ⚙️ 코드 에디터
 - Yjs와 CodeMirror를 사용하여 실시간 동시 편집이 가능합니다.
 
-| ![Code Editor](https://github.com/woorog/web_fe/assets/154962837/3af67b05-be2d-4ccd-8ff5-c5fe6a22971f) |
+|![2](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/21937151-3e82-4b11-990d-6d5da2de2569)|
 | ----------------------------------------------------------------------------- |
 | 코드 에디터에서 실시간으로 코드 편집하기                                      |
 
@@ -51,7 +51,7 @@
 - TLdraw와 소켓 연결을 사용하여 여러 구성원이 실시간으로 브레인스토밍 보드로 사용하도록 고안했습니다.
 - 이를 통해 팀원들과 아이디어를 실시간으로 공유하고 협력할 수 있습니다.
 
-| ![White Board](https://github.com/woorog/web_fe/assets/154962837/02b0d15b-38b0-4093-bc43-bbac36946c60)|
+| ![3](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/11c4939c-3b3e-4705-b3a3-118c0ca28eec)|
 | ----------------------------------------------------------------------------- |
 | 화이트 보드에서 실시간으로 아이디어 공유하기                                  |
 
@@ -60,7 +60,7 @@
 - Socket.IO를 통해 신호 교환을 처리하고, 사용자가 특정 방에 접속할 때 소켓은 방 참가자를 관리하고 신호 메시지 처리를 통해 P2P 연결을 설정합니다.
 - 직접 연결된 메쉬 네트워크를 통해 오디오와 비디오를 스트리밍합니다.
 
-| ![VideoChat](https://github.com/woorog/web_fe/assets/154962837/492c86b7-7534-4df4-80ac-f85602ca1e89)|
+| ![4](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/35ea9b16-1dfe-4511-8526-8cb121b29984)|
 | ----------------------------------------------------------------------------- |
 | 화상 채팅을 통해 동료와 소통하기                                              |
 
@@ -68,7 +68,7 @@
 - Redis Pub/Sub과 소켓을 사용하여 사용자 간 실시간 채팅이 가능합니다.
 - Clova AI LLM을 통합하여 사용자와 AI 간 상호작용을 통해 효율적으로 협업할 수 있습니다.
 
-| ![Chat](https://github.com/woorog/web_fe/assets/154962837/ac6b198c-d885-452a-8b15-ceb7b93b8dc6)|
+| ![5](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/32327c19-3e77-4131-9011-a4e6b494043c)|
 | ----------------------------------------------------------------------- |
 | 사용자와 AI와의 실시간 채팅                                              |
 
@@ -76,7 +76,7 @@
 - Puppetter와 Chromium 브라우저를 사용하여 필요한 정보를 수집합니다.
 - Cheerio를 통해 태그를 파싱하고 제거하며, Redis 캐시를 활용하여 요청 시간을 단축시킬 수 있었습니다.
 
-| ![Problem View](https://github.com/woorog/web_fe/assets/154962837/26ee2def-1c06-430f-b28e-d240b52fe7aa)|
+|![6](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/083c3abc-27af-4cf6-a3c3-1fc047da859b)|
 | ------------------------------------------------------------------------------ |
 | 백준 문제를 실시간으로 불러오기                                                |
 
@@ -175,15 +175,13 @@ cd chat; yarn install; yarn start
 
 # 🔗 서버 아키텍처
 
-![server](https://github.com/woorog/web_fe/assets/154962837/d4d8f7a6-d63f-4a4e-b1d0-73abde0a3edc)
+![7](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/6d6448ce-af8a-4b27-b481-8b5c692287ab)
 
 
 # 👻 팀 소개 (Krafton Jungle 4th)
-
-![team](https://github.com/woorog/web_fe/assets/154962837/bcf25a37-0a10-4164-8ee3-6e33a63e0e9a)
+![8](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/5d22de9d-d87b-4d6a-a28c-7ddd064f4940)
 
 
 # 📃 프로젝트 포스터
-![온코어_포스터-100](https://github.com/woorog/web_fe/assets/154962837/dcc37e1d-e543-43d1-b9fd-e29396bd120c)
-
+![9](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/867b9c77-fa4f-41d0-a444-c25ff00c93e9)
 
