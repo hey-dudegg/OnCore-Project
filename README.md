@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
     <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
     <br>
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
     <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/>
     <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=WebRTC&logoColor=white"/>
     <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=Socket.io&logoColor=white"/>
@@ -24,14 +24,13 @@
     
   </div>
   <br>
-  <a href="https://www.youtube.com/your-demo-link">🎥 데모영상 보기 </a>
-  <a href="https://youtu.be/your-presentation-link">🎤 발표영상 보기 </a>
+  <a href="https://youtu.be/dqOzQJm5DQMk">🎤 발표영상 보기 </a>
 </div>
 
 ---
 
 # 기획의도
-크래프톤 정글에서 가장 많이 성장을 체감했던 알고리즘 코어타임을 정글 이후에도 온라인으로 다시 한번 해보기 위해 제작했습니다.
+크래프톤 정글에서 가장 많이 성장을 체감했던 알고리즘 코어타임을 정글 이후에도 온라인으로 계속 이어나가기 위해 제작했습니다.
 
 
 # 서비스 소개
