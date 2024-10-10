@@ -32,6 +32,14 @@
 크래프톤 정글에서 가장 많이 성장을 체감했던 알고리즘 코어타임을 정글 이후에도 온라인으로 계속 이어나가기 위해 제작했습니다.
 # 서비스 소개
 알고리즘 문제를 실시간으로 협업하여 풀 수 있는 웹 서비스
+
+<details>
+<summary> 
+  🔗 서버 아키텍처</summary>
+
+  ![7](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/6d6448ce-af8a-4b27-b481-8b5c692287ab)
+</details>
+
 # 기능 소개
 ### ⚙️ 코드 에디터
 - Yjs와 CodeMirror를 사용하여 실시간 동시 편집이 가능합니다.
@@ -149,12 +157,7 @@ cd frontend; yarn install; npx y-webrtc
 cd socket; yarn install; yarn dev
 cd chat; yarn install; yarn start
 ```
-<details>
-<summary> 
-  🔗 서버 아키텍처</summary>
 
-  ![7](https://github.com/hey-dudegg/OnCore-Project/assets/154962837/6d6448ce-af8a-4b27-b481-8b5c692287ab)
-</details>
 <details>
 <summary> 👻 팀 소개 (Krafton Jungle 4th)</summary>
 
