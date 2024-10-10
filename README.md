@@ -34,9 +34,10 @@ Thread, User Program, Virtual Memory를 구현하며 OS에 대한 이해를 증�
   - 스레드 간의 동기화 처리
   - 여러 스레드가 동시에 실행되는 환경 구현
 - **구현 성과**
-- mlfqs 제외한 priority donation (20 pass / 7 fail)
+<details>
+- <summary> mlfqs 제외한 priority donation (20 pass / 7 fail) </summary>
 - <img width="192" alt="image" src="https://github.com/user-attachments/assets/99d10aa4-12dd-41b6-87af-f0506089d58d">
-
+</details>
 
 
 
@@ -47,9 +48,10 @@ Thread, User Program, Virtual Memory를 구현하며 OS에 대한 이해를 증�
   - 시스템 호출을 통해 프로그램과 OS 간의 인터랙션 구현
   - 사용자 프로그램의 메모리 관리
 - **구현 성과**
-- 일부 케이스(rox, bad) 제외한 userprogram (79 pass / 95 fail)
-- ![userprogram](https://github.com/user-attachments/assets/e13632f5-0809-4e72-99cd-d7cef12a070b)
-
+<details>
+- <summary> 일부 케이스(rox, bad) 제외한 userprogram (79 pass / 95 fail)</summary>
+- <img width="190" alt="image" src="https://github.com/user-attachments/assets/e13632f5-0809-4e72-99cd-d7cef12a070b">
+</details>
 
 
 ### 🧠 Virtual Memory
@@ -58,17 +60,34 @@ Thread, User Program, Virtual Memory를 구현하며 OS에 대한 이해를 증�
   - 메모리 페이징 처리
   - 메인 메모리 크기 이상의 프로그램 실행 가능
 - **구현 성과**
-- 일부 케이스(rox, bad) 제외한 userprogram (79 pass / 95 fail)
+<details>
+- <summary> 일부 케이스(rox, bad) 제외한 userprogram (87 pass / 54 fail)</summary>
+- <img width="190" alt="image" src="https://github.com/user-attachments/assets/140f6e88-262d-4eca-b05a-bd0725984723">
+</details>
 
 # 🛠️ 엔지니어링 경험
-### 1. 헤더 중복 및 순환 참조 문제 해결
-- 프로젝트 진행 중 헤더 파일의 중복 및 순환 참조 문제를 발견하고 이를 해결하기 위해 아키텍처를 재설계하고 리팩토링하였습니다.
+<details>
+<summary> 1. 헤더 중복 및 순환 참조 문제 해결 </summary>
+- 헤더 파일의 순환 참조 문제 발생, 코드 리팩토링을 통한 해결       
 
-### 2. 스레드 스케줄링 성능 개선
-- 싱글 스레드 스케줄러의 성능을 개선하여 `idle ticks`를 850에서 310으로 감소시켰습니다.
+- <img width="1080" alt="image" src="https://github.com/user-attachments/assets/382ae70e-02d4-475e-a4b6-4375a1d42f27">
 
-### 3. 메모리 할당기 최적화
-- 메모리 할당기 구현 시 발생한 메모리 내부 단편화 문제를 해결하여 성능을 42/100에서 82/100으로 향상시켰습니다.
+</details>
+
+<details>
+<summary> 2. 스레드 스케줄링 성능 개선 </summary>
+- 싱글 스레드 스케줄러 성능 개선(kernel threads 850 -> 310)       
+
+- <img width="440" alt="image" src="https://github.com/user-attachments/assets/fd2d3d2f-f0af-4d93-8d7a-de2e6b9a8cb5">
+
+</details>
+
+<details>
+<summary>3. 메모리 할당기 최적화</summary>
+- 정책 결정을 통한 메모리 내부 단편화 문제 해결 및 성능 개선 (42/100 -> 84/100)    
+
+  - <img width="440" alt="image" src="https://github.com/user-attachments/assets/32e802fb-8a51-4729-b588-5c8e377fe64d">
+</details>
 
 # 🔎 개발환경
 
