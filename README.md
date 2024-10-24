@@ -108,7 +108,7 @@
 
 <details>
   <summary>
-2. **소켓 서버의 Vertical Scaling 문제 해결**</summary>
+2. 소켓 서버의 Vertical Scaling 문제 해결</summary>
    - 기존 소켓 서버의 구성으로 발생하는 Vertical Scaling 문제를 해결하기 위해 Redis Pub/Sub을 활용하여 Horizontal Scaling이 가능하도록 서버 환경을 구축했습니다.
    - 문제 크롤러 호출 시 같은 방 유저들이 같은 문제를 호출할 가능성을 고려하여 Redis 캐싱으로 Request 속도를 향상시켰습니다.
 </details>
